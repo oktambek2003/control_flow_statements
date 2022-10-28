@@ -12,14 +12,14 @@
         string: the message to print */
 String func(int a) {
   String b;
-  if (a > 0) {
+  if (a <100) {
     if ((a % 10) % 2 == 1) {
       b = 'two-digit odd number';
     } else {
       b = 'two-digit even number';
     }
   }
-  if (a < 0) {
+  if (a >99) {
     if ((a % 10) % 2 == 1) {
       b = 'three-digit odd number';
     } else {
@@ -30,5 +30,5 @@ String func(int a) {
 }
 
 void main() {
-  print(func(-34));
+  print(func(100));
 }
