@@ -14,7 +14,7 @@ String func(int a) {
   String b;
   if (a > 0) {
     if ((a % 10) % 2 == 1) {
-      b = 'wo-digit odd number';
+      b = 'two-digit odd number';
     } else {
       b = 'two-digit even number';
     }
