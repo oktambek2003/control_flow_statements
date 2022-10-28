@@ -14,7 +14,7 @@ bool func(int a) {
   int d = a ~/ 10;
   int c = b * 10 + d;
   bool ans;
-  ans = a == c;
+  ans = a <= c;
   return ans;
 }
 
